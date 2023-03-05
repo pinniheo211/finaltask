@@ -458,3 +458,26 @@ textarea{
 
 }
 /* end footer  */
+@media (max-width:900px){
+  .question__content{
+    flex-direction: column;
+  }
+  .question__left,.question__right{
+    width: 100%;
+  }
+  textarea{
+    max-width: 100%;
+  }
+  
+  .contact__content{
+    flex-direction: column;
+  
+  }
+  .contact__left,.contact__right{
+    width: 100%;
+  }
+  
+  .right__img{
+    gap:20px;
+  }
+}
